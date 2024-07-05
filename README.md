@@ -6,6 +6,10 @@ It is intended for use in the https://ungfritid.no/ and https://frivillig.no/ un
 
 You probably don't need this, as browser triggered translations are good enough for most use cases, but if you do - here it is! 
 
+# Code walkthrough
+
+The code is in a usable state in the example.html file
+
 There are three elements to the code: 
 
 1. A button that replaces itself with the Google Translate select box, and opens that select box when clicked
