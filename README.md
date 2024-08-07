@@ -286,6 +286,10 @@ Styling is added to add a little icon to the button and a caret to show it's a d
     font-family: var(--font-family);
 }
 
+#googleTranslateWidget .goog-te-gadget a {
+    display: none; /* Hides the google logo, so it can't be accessed by tab-ing. That Google is the translator is still prominently displayed  */
+}
+
 #googleTranslateWidget select.goog-te-combo {
     margin: 0 0 10px 0;
 }
